@@ -78,14 +78,14 @@ Resources:
             Threshold: 99
           Subscribers:
             - SubscriptionType: EMAIL
-              Address: !Sub "awsome+${AccountName}@thetrask.com"
+              Address: !Sub "b.franta@centrum.cz"
         - Notification:
             NotificationType: ACTUAL
             ComparisonOperator: GREATER_THAN
             Threshold: 80
           Subscribers:
           - SubscriptionType: EMAIL
-            Address: !Sub "awsome+${AccountName}@thetrask.com"
+            Address: !Sub "b.franta@centrum.cz"
 Outputs:
   BudgetId:
     Value: !Ref Budget
