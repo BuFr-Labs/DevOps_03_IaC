@@ -5,7 +5,7 @@ Repozitoř k 3. lekci
 
 Tento repozitář obsahuje řešení domácího úkolu zaměřeného na bezpečné nastavení AWS účtu, konfiguraci AWS CLI v prostředí RHEL10 a nasazení automatického hlídání rozpočtu pomocí AWS CloudFormation šablony.
 
-🎯 Cíle projektu
+### 🎯 Cíle projektu
 
 * **Zabezpečení Root účtu:** Aktivace vícefaktorového ověření (MFA) pro hlavní AWS účet a jeho bezpečné uzamčení.
 * **Správa identit (IAM):** Vytvoření samostatného IAM uživatele s právy `AdministratorAccess` pro běžnou administrátorskou práci (dodržení AWS Best Practices).
@@ -13,7 +13,7 @@ Tento repozitář obsahuje řešení domácího úkolu zaměřeného na bezpečn
 * **Infrastruktura jako kód (IaC):** Automatizované nasazení AWS Budget (rozpočtu) pomocí CloudFormation šablony.
 * **Finanční kontrola:** Nastavení automatických e-mailových notifikací při dosažení 80 % a 99 % definovaného rozpočtu.
 
-📂 Struktura projektu
+### 📂 Struktura projektu
 
 Projekt obsahuje následující klíčové soubory:
 * **aws-cf-create-budget.yaml** - CloudFormation šablona definující AWS rozpočet, typy započítávaných nákladů (CostTypes) a parametry pro e-mailové notifikace.
